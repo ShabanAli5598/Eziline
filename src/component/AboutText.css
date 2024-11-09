@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+
+/* google font */
+.anton-regular {
+  font-family: "Anton", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.cormoran {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+ 
+}
+
+/* container text */
+#divtext {
+    text-transform:capitalize;
+    margin-top:10em;
+    font-size:1em;
+    
+}
+#divtext p {
+    opacity: 0;
+    transform: translateX(-100px);
+    font-family: "Cormorant";
+  
+  }
+  #ptag {
+    text-align: justify;
+    margin-left:50px;
+  }
+
+  #checkicon {
+    margin-right:10px;
+    color:red
+  }
+  
+
+  /* Text animation */
+  #divtext h1 {
+    animation: fadeInLeft 1s ease forwards, delayFade 1s ease forwards;
+    font-family: "Anton";
+   
+    
+  }
+  
+
+  #divtext p:nth-child(2) {
+    animation: fadeInLeft 1s ease forwards 1s;
+  }
+  #divtext p:nth-child(3) {
+    animation: fadeInLeft 1s ease forwards 2s;
+  }
+  #divtext p:nth-child(4) {
+    animation: fadeInLeft 1s ease forwards 3s;
+  }
+  #divtext p:nth-child(5) {
+    animation: fadeInLeft 1s ease forwards 4s;
+  }
+  #divtext p:nth-child(6) {
+    animation: fadeInLeft 1s ease forwards 5s;
+  }
+  
+
+  @keyframes fadeInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes delayFade {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+   /*  text resonsive */
+ @media (max-width : 700px) {
+    #divtext {
+        margin-top: 0px;
+    }
+    
+} 
+
+  

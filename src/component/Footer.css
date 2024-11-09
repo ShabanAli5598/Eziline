@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Racing+Sans+One&display=swap');
+/* google font  */
+.cormorant {
+    font-family: "Cormorant";
+    font-optical-sizing: auto;
+  }
+  
+.racing-sans-one-regular {
+    font-family: "Racing Sans One";
+    
+  }
+
+ #footer {
+    font-size:15px;
+    font-family: "Cormorant";
+    background: #7648c5
+ }
+
+#setimg{
+    width:70px;
+    height:70px;
+    
+}
+.h2text{
+    font-family: "Racing Sans One";
+    font-size:30px;
+
+}
+
+.ptext{
+    text-align: justify;
+    margin-left: 30%;
+    
+}
+
+/* Responsiveness */
+
+@media (max-width:767px) {
+    .recentpost div {
+        margin-left:1em;
+       
+    }
+    .ContactSection{
+        margin-left: -8em;;
+    }
+   
+}
+

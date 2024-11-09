@@ -1,0 +1,14 @@
+
+
+#nav-container {
+    background-color: #7a58c5; 
+    margin-bottom:-5px !important
+}
+#search {
+    background-color:#7234fa;
+    
+}
+
+#search:hover {
+    color: black !important
+}

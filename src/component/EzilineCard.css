@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Racing+Sans+One&display=swap');
+
+
+/*  google font */
+.cormorant {
+  font-family: "Cormorant";
+  font-optical-sizing: auto;
+}
+
+.racing-sans-one-regular {
+    font-family: "Racing Sans One";
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+
+.cardicon i {
+    font-size:60px;
+}
+.cardicon h1{
+    font-family: "Racing Sans One";
+    color:white;
+    font-size :30px;
+}
+.cardicon p {
+    font-family: "Cormorant";
+    color:white
+}
+.quickdelivery {
+  background :#591BC5;
+
+}
